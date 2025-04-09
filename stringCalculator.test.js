@@ -29,7 +29,7 @@ describe("String Calculator", () => {
     expect(() => add("1,-2,3")).toThrow("negative numbers not allowed:-2 ");
   });
 
-  test("should throw an error for multiple negatoive numbers", () => {
+  test("should throw an error for multiple negative numbers", () => {
     expect(() => add("1,-2,-3,4")).toThrow(
       "negative numbers not allowed:-2,-3"
     );
